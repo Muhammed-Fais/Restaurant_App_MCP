@@ -2,6 +2,8 @@
 
 This project is a FastAPI-based chat application that allows users to interact with a restaurant chatbot. The chatbot can browse the menu, place orders, and manage existing orders.
 
+![Example Chat Interface](data/images/example.png)
+
 ## Project Structure
 
 ```
@@ -12,13 +14,14 @@ This project is a FastAPI-based chat application that allows users to interact w
 │   ├── restaurant_server.py  # MCP server with restaurant tools
 │   └── db_setup.py           # SQLite database setup and population
 ├── data/                     # Data files
-│   └── restaurant.db         # SQLite database
+│   ├── restaurant.db         # SQLite database
+│   └── example.png           # Example chat interface screenshot
 ├── static/                   # Static files for the frontend
 │   ├── index.html            # Main HTML page for the chat interface
 │   ├── style.css             # CSS styles
 │   └── script.js             # JavaScript for frontend logic
 ├── .gitignore                # Specifies intentionally untracked files that Git should ignore
-└── requirements.txt          # Python package dependencies
+├── requirements.txt          # Python package dependencies
 └── README.md                 # This file
 ```
 
@@ -81,8 +84,8 @@ This project is a FastAPI-based chat application that allows users to interact w
 *   **Frontend (`static/`):** A simple HTML, CSS, and JavaScript interface for users to chat with the bot.
 
 ## To-Do / Potential Enhancements
-(Add any future plans or ideas here)
+
 *   More sophisticated error handling.
 *   User authentication.
 *   Real-time order status updates.
-*   Payment integration. 
+*   Payment integration.
